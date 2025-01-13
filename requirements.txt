@@ -5,11 +5,11 @@ chromadb
 pypdf
 tiktoken
 pandas==1.5
-langchain==0.0.254
+langchain
+langchain_community
 atlassian-python-api==3.36.0
-chromadb==0.3.25
 huggingface-hub==0.16.4
-torch==2.0.1
+torch
 sentence-transformers==2.2.2
 InstructorEmbedding==1.0.0
 p4python==2023.1.2454917

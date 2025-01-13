@@ -154,6 +154,7 @@ $(document).ready(function () {
   $("#message-input").keyup(function (event) {
     let inputVal = cleanTextInput($("#message-input").val());
 
+    console.log(inputVal)
     if (event.keyCode === 13 && inputVal != "") {
       const message = inputVal;
 
